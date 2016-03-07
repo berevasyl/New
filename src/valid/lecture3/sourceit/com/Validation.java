@@ -282,7 +282,7 @@ public class Validation {
             System.out.printf((char) 27 + "[32m%18d " + (char)27 + "[0m", creditCards[j]);
         }
         else {
-            System.out.printf((char) 27 + "[31m%18d " + (char)27 + "[0m", creditCards[j]);
+            System.out.printf((char) 27 + "[31m%18d " + (char)27 + "[0m ", creditCards[j]);
         }
 
         if ((j + 1) % 6 == 0) System.out.println();
